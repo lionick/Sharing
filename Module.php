@@ -45,7 +45,7 @@ class Module extends AbstractModule
 
         $controllers = [
             'Omeka\Controller\Site\Item',
-            'Omeka\Controller\Site\Page',
+            //'Omeka\Controller\Site\Page',
         ];
 
         foreach ($controllers as $controller) {

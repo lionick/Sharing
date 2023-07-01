@@ -7,6 +7,8 @@
             embedCode = "<iframe src='" + embedUrl + "'></iframe>";
             alert(embedCode);
         });
+
+        $("#sharing-buttons").insertAfter(".resource-title");
     });
 
 })(jQuery);
